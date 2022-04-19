@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script>
+    /*Gerry(Shen Binjie) 
+    Addition between data*/
+    function myFunction(){
+     var x = document.getElementById("myText").value;
+ var y = document.getElementById("Text").value;
+ var z= Number(x) + Number(y);
+ document.getElementById("demo").innerHTML = z ;
+}
+</script>
+</head>
+<body>
+
+<h1>Welcome to my page</h1>
+<p>The first number</p >
+<input type="text" id="myText" value="">
+<p>+</p >
+<p>The second number</p >
+<input type="text" id="Text" value="">
+<br></br>
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p >
+
+</body>
+</html>
